@@ -1,13 +1,13 @@
 html,
 body {
-  marging: 0;
+  margin: auto;
   font-family: Montserrat, sans-serif;
   background-color: #fbe3e3;
 }
 
 .fullpage {
-  height: 100vh;
-  overflow-y: hidden;
+  height: 99vh;
+  overflow-y: visible;
 }
 
 .pic-wrap {
@@ -29,14 +29,14 @@ body {
   width: 30%;
   height: 100vh;
   text-align: center;
-  color: blue;
-  font-size: 50px;
+  color: black;
+
 }
 
 #title {
-font-family: "preconnect", serif;
-font
-font-size: 2rem;
+font-family: "Bradley Hand ITC";
+font-weight: bold;
+font-size: 30px;
 font-weight: bold;
 margin-top: 1rem;
 margin-bottom: 1rem;
@@ -45,18 +45,18 @@ margin-right: 2rem;
 }
 
 #tienda {
-  font-family: Helvetica Neuw, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.3rem;
   font-weight: bold;
-  margin-top: 4rem;
+  margin-top: 6rem;
   margin-bottom: 1rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 #serv {
-  font-style: Montserrat, sans-serif;
-  font-size: 1.1rem;
-  margin-top: 5rem;
+  font-family: "Brush script MT", cursive;
+  font-size: 2rem;
+  margin-top: 9rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -74,7 +74,7 @@ margin-right: 2rem;
   font-size: 0.8rem;
   transition: background 1000ms ease;
   position: relative;
-  bottom: -200px
+  bottom: -150px
 }
 
 .btn:hover {
@@ -94,9 +94,10 @@ margin-right: 2rem;
 }
 
 .footer img{
-  max-width: 2%;
+  max-width: 2.5%;
   height: auto;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+
 }
 
 .ig:hover {
@@ -122,6 +123,9 @@ margin-right: 2rem;
   #tienda{
     margin-top: 1.5rem;
   }
+  #serv {
+    margin-top: 1.7rem;
+  }
   .content {
     float: none;
     display: inline-block;
@@ -131,16 +135,18 @@ margin-right: 2rem;
   }
   .btn{
     position: relative;
-    bottom: 10px;
-
+    bottom: -50px;
   }
   .footer {
     height: 8vh;
-    position: relative;
+    position: bottom;
     bottom: 0;
     width: 100%;
-    margin-left: 0rem;
   }
+  .footer img{
+    max-width: 7%;
+    height: auto;
+    margin-top: 0.5rem;
   .ig {
     padding: 0rem 0rem;
   }
